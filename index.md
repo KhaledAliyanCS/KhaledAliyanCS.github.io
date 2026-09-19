@@ -84,7 +84,7 @@ Learning data structures, algorithms, Java, and software development through my 
 
 ### 02 — IT
 
-Building practical experience with troubleshooting, hardware, software, and technical problem solving.
+Building practical experience with troubleshooting, hardware, software, and technical problem-solving.
 
 </div>
 
