@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Blog – Khaled Aliyan</title>
+<title>Khaled Aliyan</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,8 +36,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-listing/list.min.js"></script>
-<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -49,9 +47,9 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-3f2496242c16263c0d5ed257b2b27fab.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-cb32efade1bbfe408a5e0da3aff80a0a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-3f2496242c16263c0d5ed257b2b27fab.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-cd092d51cd3bb0ca54054c2b993dcbe6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-961febe00321bb250d95f6c885be5237.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-cd092d51cd3bb0ca54054c2b993dcbe6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -79,70 +77,13 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<style>html{ scroll-behavior: smooth; }</style>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -307,7 +248,7 @@ window.Quarto = {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+  <header id="quarto-header" class="headroom fixed-top">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -326,8 +267,27 @@ window.Quarto = {
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
+    <a class="nav-link" href="../about.md"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../projects.md"> 
+<span class="menu-text">Projects</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link active" href="../blog/index.html" aria-current="page"> 
 <span class="menu-text">Blog</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/KhaledAliyanCS"> <i class="bi bi-github" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../resume.pdf"> 
+<span class="menu-text">Resume</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -338,161 +298,147 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">Blog</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZmlsdGVyMQ==">filter1 <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZmlsdGVyMg==">filter2 <span class="quarto-category-count">(4)</span></div><div class="category" data-category="ZmlsdGVyMw==">filter3 <span class="quarto-category-count">(2)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Khaled Aliyan</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
 
+<div class="hero">
+<div class="hero-content">
+<div class="hero-tag">
+<p>COMPUTER INFORMATION TECHNOLOGY</p>
+</div>
+<section id="khaled-aliyan" class="level1">
+<h1>Khaled <span>Aliyan</span></h1>
+<h2 class="anchored" data-anchor-id="khaled-aliyan">
+Building. Learning. Breaking. Fixing.
+</h2>
+<p class="hero-description">
+I’m a Computer Information Technology student interested in software, IT, cybersecurity, and building things that actually work.
+</p>
+<div class="hero-buttons">
+<p><a href="../blog/projects.html" class="btn-primary"> View My Projects → </a></p>
+<p><a href="../blog/about.html" class="btn-secondary"> About Me </a></p>
+</div>
+</section>
+</div>
+<div class="terminal">
+<div class="terminal-top">
+<p><span></span> <span></span> <span></span></p>
+</div>
+<pre><code><span class="green">khaled@portfolio</span>:~$ whoami
 
+Khaled Aliyan
 
+<span class="green">khaled@portfolio</span>:~$ skills
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="ZmlsdGVyMiUyQ2ZpbHRlcjM=" data-listing-date-sort="1708646400000" data-listing-file-modified-sort="1789855838548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
-<div class="thumbnail"><a href="../blog/1stblog/index.html" class="no-external">
+Java
+HTML / CSS
+Git / GitHub
+Quarto
+Data Structures
+IT &amp; Troubleshooting
 
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+<span class="green">khaled@portfolio</span>:~$ status
 
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/1stblog/index.html" class="no-external">Blog Post</a>
+Learning...
+Building...
+Improving...
+
+<span class="cursor">█</span></code></pre>
+</div>
+</div>
+<hr>
+<section id="what-im-working-on" class="level2">
+<h2 class="anchored" data-anchor-id="what-im-working-on">What I’m Working On</h2>
+<div class="cards">
+<section id="computer-science" class="level3 card">
+<h3 class="anchored" data-anchor-id="computer-science">01 — Computer Science</h3>
+<p>Learning data structures, algorithms, Java, and software development through my coursework.</p>
+</section>
+<section id="it" class="level3 card">
+<h3 class="anchored" data-anchor-id="it">02 — IT</h3>
+<p>Building practical experience with troubleshooting, hardware, software, and technical problem solving.</p>
+</section>
+<section id="projects" class="level3 card">
+<h3 class="anchored" data-anchor-id="projects">03 — Projects</h3>
+<p>Creating projects that give me real experience instead of just collecting assignments.</p>
+</section>
+</div>
+<hr>
+</section>
+<section id="featured-projects" class="level2">
+<h2 class="anchored" data-anchor-id="featured-projects">Featured Projects</h2>
+<div class="project-grid">
+<div class="project">
+<div class="project-number">
+01
+</div>
+<h3 class="anchored">
+Data Structures
 </h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZmlsdGVyMg=='); return false;">filter2</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZmlsdGVyMw=='); return false;">filter3</div>
-
+<p>
+Java implementations and coursework exploring arrays, recursion, abstract data types, lists, and algorithms.
+</p>
+<p><a href="../blog/projects.html">View Project →</a></p>
 </div>
-<div class="delink listing-description"><a href="../blog/1stblog/index.html" class="no-external">
-<p>description</p>
-</a></div>
+<div class="project">
+<div class="project-number">
+02
 </div>
-<div class="metadata">
-<a href="../blog/1stblog/index.html" class="no-external">
-<div class="listing-date">
-Feb 23, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="ZmlsdGVyMiUyQ2ZpbHRlcjM=" data-listing-date-sort="1708646400000" data-listing-file-modified-sort="1789855838548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="173">
-<div class="thumbnail"><a href="../blog/markdown/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/markdown/index.html" class="no-external">Markdown formatting</a>
+<h3 class="anchored">
+Personal Portfolio
 </h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZmlsdGVyMg=='); return false;">filter2</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZmlsdGVyMw=='); return false;">filter3</div>
-
+<p>
+This website — built with Quarto, Markdown, HTML, CSS, and GitHub Pages.
+</p>
+<p><a href="../blog/projects.html">View Project →</a></p>
 </div>
-<div class="delink listing-description"><a href="../blog/markdown/index.html" class="no-external">
-<p>description</p>
-</a></div>
+<div class="project">
+<div class="project-number">
+03
 </div>
-<div class="metadata">
-<a href="../blog/markdown/index.html" class="no-external">
-<div class="listing-date">
-Feb 23, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="2" data-categories="ZmlsdGVyMSUyQ2ZpbHRlcjI=" data-listing-date-sort="1708387200000" data-listing-file-modified-sort="1789855838548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="379">
-<div class="thumbnail"><a href="../blog/qmd/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/qmd/index.html" class="no-external">.qmd and python jupyter blocks</a>
+<h3 class="anchored">
+Coming Soon
 </h3>
-<div class="listing-categories">
+<p>
+More projects coming as I build my technical portfolio.
+</p>
+<p><a href="../blog/projects.html">Stay Tuned →</a></p>
+</div>
+</div>
+<hr>
+</section>
+<section id="lets-build-something." class="level2 closing">
+<h2 class="anchored" data-anchor-id="lets-build-something.">Let’s build something.</h2>
+<p><a href="mailto:khaled.aliyan6@gmail.com" class="btn-primary"> Contact Me </a></p>
+</section>
 
-<div class="listing-category" onclick="window.quartoListingCategory('ZmlsdGVyMQ=='); return false;">filter1</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('ZmlsdGVyMg=='); return false;">filter2</div>
 
-</div>
-<div class="delink listing-description"><a href="../blog/qmd/index.html" class="no-external">
-<p>description</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/qmd/index.html" class="no-external">
-<div class="listing-date">
-Feb 20, 2024
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="3" data-categories="ZmlsdGVyMSUyQ2ZpbHRlcjI=" data-listing-date-sort="1708387200000" data-listing-file-modified-sort="1789855838548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="95">
-<div class="thumbnail"><a href="../blog/quarto/index.html" class="no-external">
-
-<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../blog/quarto/index.html" class="no-external">About Quarto</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZmlsdGVyMQ=='); return false;">filter1</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZmlsdGVyMg=='); return false;">filter2</div>
-
-</div>
-<div class="delink listing-description"><a href="../blog/quarto/index.html" class="no-external">
-<p>description</p>
-</a></div>
-</div>
-<div class="metadata">
-<a href="../blog/quarto/index.html" class="no-external">
-<div class="listing-date">
-Feb 20, 2024
-</div>
-</a>
-</div>
-</div>
-</div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     // Ensure there is a toggle, if there isn't float one in the top right
@@ -911,4 +857,5 @@ Feb 20, 2024
 
 
 
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>
