@@ -2,9 +2,30 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Title Here",
+    "title": "Khaled Aliyan",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "COMPUTER INFORMATION TECHNOLOGY\n\n\n\n\n\nI’m a Computer Information Technology student interested in software, IT, cybersecurity, and building things that actually work.\n\n\n View My Projects → \n About Me \n\n\n\n\n\n  \n\nkhaled@portfolio:~$ whoami\n\nKhaled Aliyan\n\nkhaled@portfolio:~$ skills\n\nJava\nHTML / CSS\nGit / GitHub\nQuarto\nData Structures\nIT & Troubleshooting\n\nkhaled@portfolio:~$ status\n\nLearning...\nBuilding...\nImproving...\n\n█"
+  },
+  {
+    "objectID": "index.html#what-im-working-on",
+    "href": "index.html#what-im-working-on",
+    "title": "Khaled Aliyan",
+    "section": "What I’m Working On",
+    "text": "What I’m Working On\n\n\n01 — Computer Science\nLearning data structures, algorithms, Java, and software development through my coursework.\n\n\n02 — IT\nBuilding practical experience with troubleshooting, hardware, software, and technical problem solving.\n\n\n03 — Projects\nCreating projects that give me real experience instead of just collecting assignments."
+  },
+  {
+    "objectID": "index.html#featured-projects",
+    "href": "index.html#featured-projects",
+    "title": "Khaled Aliyan",
+    "section": "Featured Projects",
+    "text": "Featured Projects\n\n\n\n01\n\n\nData Structures\n\n\nJava implementations and coursework exploring arrays, recursion, abstract data types, lists, and algorithms.\n\nView Project →\n\n\n\n02\n\n\nPersonal Portfolio\n\n\nThis website — built with Quarto, Markdown, HTML, CSS, and GitHub Pages.\n\nView Project →\n\n\n\n03\n\n\nComing Soon\n\n\nMore projects coming as I build my technical portfolio.\n\nStay Tuned →"
+  },
+  {
+    "objectID": "index.html#lets-build-something.",
+    "href": "index.html#lets-build-something.",
+    "title": "Khaled Aliyan",
+    "section": "Let’s build something.",
+    "text": "Let’s build something.\n Contact Me"
   },
   {
     "objectID": "blog/index.html",
@@ -131,6 +152,76 @@
     "title": "Blog Post",
     "section": "Code Blocks",
     "text": "Code Blocks\nIt’s possible to do code blocks with langauge highlighting.\nThis:\n\\`\\`\\`{.python}\nprint(\"hellow world!\")\n\ndef testfunction(input):\n    print(\"Hi!\")\n\\`\\`\\`\nResults in:\nprint(\"hellow world!\")\n\ndef testfunction(input):\n    print(\"Hi!\")\nMany, many languages are supported and can be highlighted.\nImages:\n![alt text](https://quarto.org/quarto.png)\n\n\n\nalt text\n\n\nOf course, this is an external image. You an also store images in the repository, and then refer to them by the relative file path. Something like:\n![](../image.png)\nWhere .. goes up one directory, and then you can refer to files by their file path.\nMore information about markdown: https://quarto.org/docs/authoring/markdown-basics.html"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Here are some of the projects and technical work I’m building while studying Computer Information Technology.\n\n\n\nJava\nJava projects focused on fundamental computer science concepts and problem solving.\n\n\n\nArrays\nTwo-dimensional arrays\nRecursion\nAbstract Data Types\nInterfaces\nLists\nAlgorithms\n\nI’m using these projects to strengthen my understanding of how data is stored, organized, and processed.\n\n\n\n\n\nQuarto · Markdown · HTML · CSS · GitHub Pages\nThis website is one of my projects.\nI’m using Quarto and GitHub to build and publish a personal portfolio that documents my technical skills, projects, and progress.\n\n\n\nMarkdown\nHTML\nCSS\nQuarto\nGit\nGitHub\n\n\n\n\n\n\nHardware · Software · Troubleshooting\nHands-on technical experience involving computer hardware, software, troubleshooting, and problem solving.\nThis section will grow as I document more of the technical work I complete.\n\n\n\n\nI’m continuing to build projects as I learn.\nFuture projects will include more programming, web development, IT, and other technical work.\n\n\n\n\nMore projects will be added as I learn and create.\n\n ← About Me"
+  },
+  {
+    "objectID": "projects.html#data-structures-algorithms",
+    "href": "projects.html#data-structures-algorithms",
+    "title": "Projects",
+    "section": "",
+    "text": "Java\nJava projects focused on fundamental computer science concepts and problem solving.\n\n\n\nArrays\nTwo-dimensional arrays\nRecursion\nAbstract Data Types\nInterfaces\nLists\nAlgorithms\n\nI’m using these projects to strengthen my understanding of how data is stored, organized, and processed."
+  },
+  {
+    "objectID": "projects.html#personal-portfolio",
+    "href": "projects.html#personal-portfolio",
+    "title": "Projects",
+    "section": "",
+    "text": "Quarto · Markdown · HTML · CSS · GitHub Pages\nThis website is one of my projects.\nI’m using Quarto and GitHub to build and publish a personal portfolio that documents my technical skills, projects, and progress.\n\n\n\nMarkdown\nHTML\nCSS\nQuarto\nGit\nGitHub"
+  },
+  {
+    "objectID": "projects.html#it-troubleshooting",
+    "href": "projects.html#it-troubleshooting",
+    "title": "Projects",
+    "section": "",
+    "text": "Hardware · Software · Troubleshooting\nHands-on technical experience involving computer hardware, software, troubleshooting, and problem solving.\nThis section will grow as I document more of the technical work I complete."
+  },
+  {
+    "objectID": "projects.html#more-coming-soon",
+    "href": "projects.html#more-coming-soon",
+    "title": "Projects",
+    "section": "",
+    "text": "I’m continuing to build projects as I learn.\nFuture projects will include more programming, web development, IT, and other technical work.\n\n\n\n\nMore projects will be added as I learn and create.\n\n ← About Me"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m Khaled Aliyan, a Computer Information Technology student who enjoys learning how technology works and building things from scratch.\nI’m currently focused on developing my skills in programming, IT, troubleshooting, and web development while building projects that give me real-world experience.\n\n\n\nJava\nData Structures & Algorithms\nHTML & CSS\nGit & GitHub\nQuarto\nIT Troubleshooting\nComputer Hardware\nSoftware Development\n\n\n\n\nI learn best by actually building things.\nInstead of just following tutorials, I like taking what I learn and turning it into something I can use, test, break, fix, and improve.\nThat’s also why this website exists — it’s a project I’m continuously building as I learn.\n\n\n\nCalifornia State University, Northridge\nComputer Information Technology\n\n\n\nI’m building a technical portfolio that shows what I can actually do rather than just listing skills on a résumé.\nMy goal is to keep improving my programming and IT skills, build increasingly complex projects, and gain hands-on experience."
+  },
+  {
+    "objectID": "about.html#what-im-learning",
+    "href": "about.html#what-im-learning",
+    "title": "About Me",
+    "section": "",
+    "text": "Java\nData Structures & Algorithms\nHTML & CSS\nGit & GitHub\nQuarto\nIT Troubleshooting\nComputer Hardware\nSoftware Development"
+  },
+  {
+    "objectID": "about.html#my-approach",
+    "href": "about.html#my-approach",
+    "title": "About Me",
+    "section": "",
+    "text": "I learn best by actually building things.\nInstead of just following tutorials, I like taking what I learn and turning it into something I can use, test, break, fix, and improve.\nThat’s also why this website exists — it’s a project I’m continuously building as I learn."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About Me",
+    "section": "",
+    "text": "California State University, Northridge\nComputer Information Technology"
+  },
+  {
+    "objectID": "about.html#what-im-working-toward",
+    "href": "about.html#what-im-working-toward",
+    "title": "About Me",
+    "section": "",
+    "text": "I’m building a technical portfolio that shows what I can actually do rather than just listing skills on a résumé.\nMy goal is to keep improving my programming and IT skills, build increasingly complex projects, and gain hands-on experience."
   },
   {
     "objectID": "blog/about.html",
