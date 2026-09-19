@@ -41,7 +41,7 @@ They result in unformated, monospace text:
 
 `**bold**` = **bold**
 
-`[linktext](example.com)` = [linktext](example.com)
+`[linktext](example.com)` = [linktext]()
 
 ## More Markdwon Basics
 
